@@ -13,7 +13,7 @@ function calculePriceWithDiscount(){
    console.log({price, discount });
    
    if (!price || !discount) {
-    pResult.innerText = 'Dude, put the numbers lol';
+    pResult.innerText = 'Add the price and discount porcentage';
     return;
    }
 
